@@ -4,7 +4,7 @@ setwd("/Users/shiqi/Downloads/Predictive Modeler")
 library(tidyverse)
 library(dplyr)
 library("readxl")
-data <- read_excel("Lending Analtyics PM Assessment 2022.xlsx", sheet = "Dataset")
+data <- read_excel("Lending Analtyics.xlsx", sheet = "Dataset")
 
 # charge off risk by random forest
 library(randomForest)
