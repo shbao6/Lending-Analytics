@@ -3,7 +3,7 @@ setwd("/Users/shiqi/Downloads/Predictive Modeler")
 library(tidyverse)
 library(dplyr)
 library("readxl")
-data <- read_excel("Lending Analtyics PM Assessment 2022.xlsx", sheet = "Dataset")
+data <- read_excel("Lending Analtyics.xlsx", sheet = "Dataset")
 # clean the data: filtering
 data_amt = filter(data, chgoff_flag == 1)
 # charge off amount by random forest
