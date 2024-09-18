@@ -1,1 +1,1 @@
-predict credit charge off risk and amount
+predict credit charge-off risk and amount
